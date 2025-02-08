@@ -1,3 +1,4 @@
+import ClippyCanvas from "@/components/ClippyCanvas"
 import Sidebar from "@/components/Sidebar"
 import Iridescence from "@/components/ui/Iridescence"
 
@@ -14,9 +15,11 @@ function App() {
         />
       </div>
       <div className="w-full h-full relative z-50">
-        <div>
 
+        <div className="size-auto absolute inset-0 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+          <ClippyCanvas />
         </div>
+
         <div className="absolute right-5 top-1/2 -translate-y-1/2">
           <Sidebar />
         </div>
