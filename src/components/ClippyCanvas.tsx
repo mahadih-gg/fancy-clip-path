@@ -39,10 +39,9 @@ const ClippyCanvas = () => {
         <div
           className="bg-red-400"
           style={{
-
             width: size.width,
             height: size.height,
-            clipPath: clipPath
+            clipPath: "path('M 0,60 L 10,50 L 90,50 L 100,40 L 100,10 L 110,0 L 190,0 L 200,10 L 200,190 L 190,200 L 10,200 L 0,190 Z')"
           }}
         >
         </div>

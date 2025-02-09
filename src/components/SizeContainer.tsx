@@ -17,9 +17,12 @@ const SizeContainer = () => {
               type="number"
               className="w-5/6 bg-white/50 backdrop-blur-sm border border-gray-300 rounded-md py-1 px-2 outline-none"
               value={size.width}
+              min={100}
+              max={300}
               onChange={(e) => setSize({ ...size, width: parseInt(e.target.value) })}
             />
           </div>
+
 
           <div className="flex items-center gap-2">
 
@@ -28,8 +31,11 @@ const SizeContainer = () => {
               type="number"
               className="w-5/6 bg-white/50 backdrop-blur-sm border border-gray-300 rounded-md py-1 px-2 outline-none"
               value={size.height}
+              min={100}
+              max={300}
               onChange={(e) => setSize({ ...size, height: parseInt(e.target.value) })}
             />
+
 
 
           </div>

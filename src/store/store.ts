@@ -24,15 +24,40 @@ interface StoreData {
 
 
 const initialState: StoreData = {
-  points: [{
-    id: 1,
-    x: 0,
-    y: 0,
-    radius: 0
-  }],
+  points: [
+    {
+      id: 1,
+      x: 0,
+      y: 0,
+      radius: 0
+    },
+    {
+      id: 2,
+      x: 300,
+      y: 0,
+      radius: 0
+
+    },
+    {
+      id: 3,
+      x: 300,
+      y: 300,
+      radius: 0
+
+
+    },
+    {
+      id: 4,
+      x: 0,
+      y: 300,
+      radius: 0
+    },
+
+
+  ],
   size: {
-    width: 300,
-    height: 300
+    width: 200,
+    height: 200
   },
   clipPath: ''
 }
